@@ -7,10 +7,9 @@ package lesson1_2.levelB.b2;
  */
 public class Run {
     public static void main(String[] args) {
-        double a = 1;
-        double b = 2;
-        double quotient = a / b;
-        System.out.println(quotient);
+        int a = 1;
+        int b = 2;
+        System.out.println((double) a / b);
 
     }
 }
