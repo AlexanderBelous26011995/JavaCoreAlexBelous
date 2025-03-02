@@ -8,7 +8,7 @@ package lesson1_2.levelA.a2;
 public class Run {
     public static void main(String[] args) {
         byte varByte = 10;
-        short varShort = (short) varByte;
+        short varShort = varByte;
         System.out.println("Значение переменной varByte: " + varByte);
         System.out.println("Значение переменной varShort: " + varShort);
     }
